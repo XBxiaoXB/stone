@@ -5,7 +5,7 @@ void InitLED(void)
 {
 	IO.PDR8.BIT.B1 = 1;
 	IO.PDR8.BIT.B2 = 1;
-	IO.PCR8 = 0x46;
+	IO.PCR8 = 0x46;  // ??
 }
 
 void LED1_ON(void)
